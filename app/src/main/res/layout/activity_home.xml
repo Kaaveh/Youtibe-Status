@@ -23,14 +23,15 @@
             app:layout_collapseMode ="parallax"
             app:layout_scrollFlags="scroll|snap|enterAlwaysCollapsed">
 
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/too_bar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/too_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize" />
 
                 <ImageView
                     android:layout_width="100dp"
@@ -109,12 +110,15 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+<!--
     <include layout="@layout/nested_scrol_view"/>
+-->
 
-<!--    <androidx.viewpager.widget.ViewPager
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>-->
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
 <!--    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_home"
