@@ -1,8 +1,8 @@
-package ir.massdev.youtibestatus.view
+package ir.massdev.youtubestatus.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import ir.massdev.youtibestatus.R
+import ir.massdev.youtubestatus.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

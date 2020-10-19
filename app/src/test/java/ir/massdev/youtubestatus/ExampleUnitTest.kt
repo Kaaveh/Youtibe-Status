@@ -1,4 +1,4 @@
-package ir.massdev.youtibestatus
+package ir.massdev.youtubestatus
 
 import org.junit.Test
 
