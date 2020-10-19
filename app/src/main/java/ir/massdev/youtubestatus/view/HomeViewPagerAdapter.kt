@@ -1,4 +1,4 @@
-package ir.massdev.youtibestatus.view
+package ir.massdev.youtubestatus.view
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

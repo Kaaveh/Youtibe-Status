@@ -1,12 +1,11 @@
-package ir.massdev.youtibestatus.view
+package ir.massdev.youtubestatus.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
-import ir.massdev.youtibestatus.R
+import ir.massdev.youtubestatus.R
 
 
 class HomeActivity : AppCompatActivity() {
@@ -37,7 +36,7 @@ class HomeActivity : AppCompatActivity() {
 
     private fun configViewPager(viewPager: ViewPager) {
         // fragment list
-        var fragmentList: ArrayList<Fragment> = ArrayList()
+        val fragmentList: ArrayList<Fragment> = ArrayList()
         fragmentList.add(CommentsFragment())
         fragmentList.add(LikesFragment())
         fragmentList.add(SharedFragment())
