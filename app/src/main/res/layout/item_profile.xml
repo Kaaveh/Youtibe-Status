@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/redBackground"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ic_youtube_logo" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            app:civ_border_color="@color/text_color"
+            app:civ_border_width="@dimen/grid_1"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:layout_margin="@dimen/grid_2"
+            android:src="@drawable/img_profile"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="javad shirkhani"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_margin="@dimen/grid_2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/text_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/grid_2"
+            android:layout_marginRight="@dimen/grid_2"
+            android:layout_marginTop="@dimen/grid_3"
+            android:weightSum="5"
+            android:layout_marginBottom="@dimen/grid_2">
+
+            <TextView
+                android:text="text1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/second_text_color"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:text="text1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/second_text_color"
+                android:layout_weight="1"
+                android:gravity="center" />
+            <TextView
+                android:text="text1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/second_text_color"
+                android:layout_weight="1"
+                android:gravity="center" />
+            <TextView
+                android:text="text1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/second_text_color"
+                android:layout_weight="1"
+                android:gravity="center" />
+            <TextView
+                android:text="text1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/second_text_color"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
